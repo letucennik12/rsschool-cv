@@ -1,3 +1,137 @@
-style {
-    color: red
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'NotoSans-Regular', sans-serif;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 100px;
+    background-color:rgba(51, 11, 197, 0.5);
+    padding: 20px 20px;
+}
+
+.nav {
+
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 25px;
+    text-decoration: none;
+    color: saddlebrown;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.main {
+    border: solid 1px red;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    background-color: violet;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section {
+    width: 50%;
+    padding: 20px 15px 30px;
+    border-bottom: 2px solid brown;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 50px 50px;
+    border-bottom: 15px solid black;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-profile-logo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 0 20px rgba(51, 11, 197, 0.5);
+}
+
+.section-title {
+    margin bottom: 20px;
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: upercase;
+    letter-spacing: 20px;
+    color: black;
+}
+
+.github {
+    text-decoration: none;
+    line-height: 45px;
+    color: white;
+
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("assets/svg/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: NotoSans_Regular;
+    src: url("assets/fonts/NotoSans-Regular.ttf")
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
 }
