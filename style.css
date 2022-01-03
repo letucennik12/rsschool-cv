@@ -189,5 +189,6 @@ body {
     .section-profile {
         flex-direction: column;
         align-items: center;
+        margin: 0;
     }
 }
