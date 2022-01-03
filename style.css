@@ -179,4 +179,7 @@ body {
     .section {
         width: 100%;
     }
+    .nav-list {
+        display: none;
+    }
 }
