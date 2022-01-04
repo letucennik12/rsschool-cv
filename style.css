@@ -143,6 +143,19 @@ body {
 .section-education {
     font-weight: 600;
 }
+
+.section-link {
+    position: relative;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+
+.section-link:hover {
+    font-weight: 600;
+}
+
 .footer {
     background-color: rgba(21, 102, 57, 0.5);
     padding: 20px;
